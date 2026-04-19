@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | AquaLogic Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/logo.png" alt="AquaLogic Logo">
+                AquaLogic Studio
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Games</a></li>
+                    <li class="nav-item"><a class="nav-link" href="privacy.html">Privacy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="terms.html">Terms</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="glass-card">
+                    <div class="text-center mb-5">
+                        <h1 class="display-4 fw-bold">Get in Touch</h1>
+                        <p class="text-secondary">Have a question or feedback? We'd love to hear from you.</p>
+                    </div>
+
+                    <form id="contact-form">
+                        <div class="row g-3">
+                            <div class="col-md-6 text-start">
+                                <label class="form-label text-secondary small">Your Name</label>
+                                <input type="text" class="form-control" placeholder="John Doe" required>
+                            </div>
+                            <div class="col-md-6 text-start">
+                                <label class="form-label text-secondary small">Email Address</label>
+                                <input type="email" class="form-control" placeholder="john@example.com" required>
+                            </div>
+                            <div class="col-12 text-start">
+                                <label class="form-label text-secondary small">Select Product (Optional)</label>
+                                <select class="form-control">
+                                    <option value="">General Inquiry</option>
+                                    <option value="water-sort">Water Sort</option>
+                                    <option value="arrow-puzzle">Arrow Puzzle</option>
+                                </select>
+                            </div>
+                            <div class="col-12 text-start">
+                                <label class="form-label text-secondary small">Message</label>
+                                <textarea class="form-control" rows="5" placeholder="How can we help you?" required></textarea>
+                            </div>
+                            <div class="col-12 mt-4">
+                                <button type="submit" class="btn-premium w-100 py-3">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="row mt-5 text-center">
+                            <div class="col-md-4">
+                                <div class="p-3">
+                                    <h5 class="fw-bold">Email</h5>
+                                    <p class="text-secondary">aquacoderwwdc@gmail.com</p>
+                                </div>
+                            </div>
+                    <div class="col-md-4">
+                        <div class="p-3">
+                            <h5 class="fw-bold">Studio</h5>
+                            <p class="text-secondary">San Francisco, CA</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-3">
+                            <h5 class="fw-bold">Follow Us</h5>
+                            <p class="text-secondary">@AquaLogicGames</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container text-center">
+            <p class="text-secondary small">© 2026 AquaLogic Studio</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
